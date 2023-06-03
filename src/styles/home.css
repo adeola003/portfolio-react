@@ -1,0 +1,28 @@
+.home {
+  background-image: url('../assets/home-bg.jpg');
+  background-repeat: no-repeat;
+  display: flex;
+  column-gap: 10px;
+}
+
+.profile-image-container {
+    width: 400px;
+    height: 450px;
+    text-align: center;
+  }
+
+  .profile-image {
+    width: 300px;
+    height: 350px;
+    border-radius: 30%;
+    padding-top: 10%;
+  }
+
+  .social-links {
+    column-gap: 20px;
+  }
+
+  .social-link img {
+    width: 45px;
+    height: 30px;
+  }

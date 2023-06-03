@@ -1,18 +1,23 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import logo from './assets/planet.png';
+import logo from '../assets/logo.png';
 
 const Navbar = () => (
-  <header>
     <nav className="navbar">
       <div className="logo-title">
-        <img className="logo" src={planet} alt="Planet logo" />
-        <h1 className="title">Space traveler&apos;s Hub</h1>
+        <NavLink exact to="/">
+         <img className="logo" src={logo} alt="personnal logo" />
+        </NavLink>
       </div>
       <ul className="link_list">
         <li>
           <NavLink exact to="/" activeClassName="active">
-            Rockets
+            Home
+          </NavLink>
+        </li>
+        <li>
+          <NavLink to="/about" activeClassName="active">
+            About
           </NavLink>
         </li>
         <li>
@@ -20,16 +25,18 @@ const Navbar = () => (
             Missions
           </NavLink>
         </li>
-        <span>|</span>
         <li>
           <NavLink to="/profile" activeClassName="active">
-            My profile
+            Portfolio
+          </NavLink>
+        </li>
+        <li>
+          <NavLink to="/profile" activeClassName="active">
+            Contact
           </NavLink>
         </li>
       </ul>
     </nav>
-    <hr className="bar" />
-  </header>
 );
 
 export default Navbar;
