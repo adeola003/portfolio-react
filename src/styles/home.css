@@ -1,0 +1,76 @@
+.home {
+  display: flex;
+  column-gap: 10px;
+  position: absolute;
+  background-color: rgb(191, 206, 206);
+  background-image: url('../assets/anime-bg.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.intro {
+  margin-right: 3%;
+  margin-top: 8%;
+  text-align: center;
+}
+
+.intro p {
+  margin-bottom: 20px;
+  font-size: 17px;
+}
+
+.profile-image-container {
+    width: 400px;
+    height: 450px;
+    text-align: center;
+    margin-left: 2%;
+    margin-top: 8%;
+  }
+
+  .profile-image {
+    width: 300px;
+    height: 350px;
+    border-radius: 30%;
+    padding-top: 10%;
+  }
+
+  .social-links {
+    display: flex;
+    column-gap: 20px;
+    align-items: center;
+    height: 60px;
+    border: 2px solid rgb(41, 100, 89);
+    border-radius: 5px;
+  }
+
+  .social-link img {
+    width: 45px;
+    height: 30px;
+    transition: transform 0.3s ease;
+  }
+
+  .social-link:hover img {
+    transform: scale(1.2);
+  }
+
+  .mail {
+    text-decoration: none;
+    color: darkslategray;
+    font-weight: 700;
+  }
+
+  .mail:hover {
+    font-weight: 900;
+  }
+
+  .whatsapp {
+    background-color: white;
+    border-radius: 50%;
+    width: max-content;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
