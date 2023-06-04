@@ -21,12 +21,12 @@ const Navbar = () => (
           </NavLink>
         </li>
         <li>
-          <NavLink to="/profile" activeClassName="active">
+          <NavLink to="/portfolio" activeClassName="active">
             Portfolio
           </NavLink>
         </li>
         <li>
-          <NavLink to="/profile" activeClassName="active">
+          <NavLink to="/contact" activeClassName="active">
             Contact
           </NavLink>
         </li>

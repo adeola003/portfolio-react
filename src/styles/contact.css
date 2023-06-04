@@ -1,0 +1,48 @@
+.contact-form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #e6f4ea; /* Light green background */
+    border-radius: 5px;
+  }
+  
+  .contact-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #177245; /* Dark green text color */
+  }
+  
+  .contact-form form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contact-form .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .contact-form label {
+    font-weight: bold;
+    color: #177245; /* Dark green text color */
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    padding: 10px;
+    border: 1px solid #177245; /* Dark green border */
+    border-radius: 3px;
+  }
+  
+  .contact-form button {
+    padding: 10px 20px;
+    background-color: #177245; /* Dark green button background */
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .contact-form button:hover {
+    background-color: #135937; /* Darker green button background on hover */
+  }
+  
