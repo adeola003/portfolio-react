@@ -1,6 +1,7 @@
 .navbar {
   display: flex;
   justify-content: space-between;
+  background-color: #4dbe7c;
 }
 
 .link_list {
@@ -8,6 +9,17 @@
   column-gap: 15px;
   list-style: none;
   margin-right: 4%;
+}
+
+.link_list li a {
+  color: darkslategray;
+  text-decoration: none;
+}
+
+.link_list li a.active {
+  color: darkslategray;
+  font-weight: 800;
+  text-decoration: underline;
 }
 
 .logo-title {
@@ -19,4 +31,5 @@
   height: 50px;
   border-radius: 50%;
 }
+
 
