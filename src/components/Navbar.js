@@ -21,11 +21,6 @@ const Navbar = () => (
           </NavLink>
         </li>
         <li>
-          <NavLink exact to="/missions" activeClassName="active">
-            Missions
-          </NavLink>
-        </li>
-        <li>
           <NavLink to="/profile" activeClassName="active">
             Portfolio
           </NavLink>
